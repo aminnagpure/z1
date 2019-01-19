@@ -31,6 +31,7 @@ const usersCollection = db.collection('users')
 const exchanges = db.collection('exchanges')
 const commentsCollection = db.collection('comments')
 const likesCollection = db.collection('likes')
+const chatbox = db.collection('chatbox')
 
 
 export {
@@ -41,5 +42,6 @@ export {
     usersCollection,
     exchanges,
     commentsCollection,
-    likesCollection
+    likesCollection,
+    chatbox
 }
